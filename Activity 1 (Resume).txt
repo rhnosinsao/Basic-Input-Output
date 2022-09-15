@@ -1,0 +1,64 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine (" *****Fill up your Resume***** ");
+        
+        Console.WriteLine ("Name: ");
+        string name = Console.ReadLine();
+        
+         Console.WriteLine ("Present Address: ");
+        string PreAddress = Console.ReadLine();
+        
+         Console.WriteLine ("Permanent Address: ");
+        string PerAddress = Console.ReadLine();
+        
+         Console.WriteLine ("Date of Birth: ");
+        string DOBirth = Console.ReadLine();
+        
+         Console.WriteLine ("Civil Status: ");
+        string CS = Console.ReadLine();
+        
+         Console.WriteLine ("Citizenship: ");
+        string Citizenz = Console.ReadLine();
+
+        Console.WriteLine ("Place of Birth: ");
+        string POBirth = Console.ReadLine(); 
+        
+         Console.WriteLine ("Name of Father: ");
+        string NofFather = Console.ReadLine();
+        
+         Console.WriteLine ("Name of Mother: ");
+        string NofMother = Console.ReadLine();
+        
+         Console.WriteLine ("Address: ");
+        string Address = Console.ReadLine();
+
+ Console.WriteLine ("Language or Dialects Spoken: ");
+        string LorDS = Console.ReadLine(); 
+        
+         Console.WriteLine ("Person to be modified In Case of Emergency: ");
+        string PMCE = Console.ReadLine();
+        
+         Console.WriteLine ("Religion: ");
+        string Regi = Console.ReadLine();
+        
+         Console.WriteLine ("Age: ");
+        string Age = Console.ReadLine();
+        
+         Console.WriteLine ("Weight : ");
+        string Wei = Console.ReadLine();
+        
+         Console.WriteLine ("Height ");
+        string Hei = Console.ReadLine();
+        
+        Console.WriteLine (" *** IN YOUR RESUME *** ");
+        Console.WriteLine("Name: " + name + "\nPresent Address: " + PreAddress + "\nPermanent Address: " + PerAddress + "\nDate of Birth:" + DOBirth + "\nCivil Status:" + CS + "\nCitizenship:" + Citizenz + "\nPlace of Birth:" + POBirth + "\nName of Father: " + NofFather + "\nName of Mother: " + NofMother + " \nAddress: " + Address + "\nLanguage or Dialects Spoken:" + LorDS + "\nPerson to be modified In Case of Emergency" + PMCE + " \nReligion:" + Regi + "\nAge: " + Age + "\nWeight" + Wei + "\nHeight" + Hei );
+        
+    }
+}
